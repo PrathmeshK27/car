@@ -1,0 +1,157 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+a
+{
+	text-decoration: none;
+	padding: 10px;
+}
+.img
+{
+	background-repeat: no-repeat;
+	background-size: auto;
+	width: 100%;
+	height: 20%;  
+}
+.div1
+{
+	background-color: #FFEFD5;
+	width: 80%;
+	margin-left: 130px;
+	height: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  clear: both;
+}
+
+.column {
+  flex: 30%;
+  padding: 10px;
+  height: 300px;
+
+
+  
+    
+}
+.column2
+{
+	background-color: grey;
+	width: auto;
+	height: 200px;
+	text-align:20px;
+
+}
+.z{
+	background-color: red;
+	width: 40%;
+	padding: 25px;
+	height: 60%;
+	z-index: 1;
+
+	margin:18% 0% 0% 7%;
+}
+.col2
+{
+	
+ 
+ display: inline-block;
+z-index: 1;
+}
+.z
+{
+		
+}
+.col4
+{
+	background-color: grey;
+	height: 300px;
+	width: auto;
+	margin-top: -4px;
+
+}
+.newcol
+{
+	display: inline;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	z-index: -1;
+}
+.k
+{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	
+}
+.col5{
+
+	background-color: white;
+	
+  display: flex;
+  flex-direction:row;
+	}
+.col4
+{
+
+  display: flex;
+  flex-direction:row;
+}
+.c{
+
+  display: flex;
+  flex-direction:row;
+}
+.new2{
+	
+}
+.nav
+{
+
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 98.8%;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.parallax
+{
+
+  background-image: url("1.jpg");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;width: 100%;
+
+}
